@@ -208,5 +208,12 @@ footer nav a {
     text-align: left;
     border-bottom: 1px dotted black;
     margin-bottom: 2%;
-    display: flex
+}
+.cardCont {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+.cardCont div{
+    width: 50%;
 }
