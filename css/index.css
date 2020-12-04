@@ -70,17 +70,22 @@ p {
     justify-content: flex-start;
     width: 800px;
     align-items: baseline;
-    margin: 2% auto;
+    margin: 2rem auto;
 }
 .lambda{
     width: 20%;
+    margin-right: 3rem;
 }
 .headerBar {
-    display: flex;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
     justify-content: space-evenly;
-    width: 70%;
 }
 .headerBar a{
+    width: 20%;
+    margin-right: 4rem;
     color: black;
     text-decoration: none;
 
@@ -88,14 +93,11 @@ p {
 .imgCont {
     display:flex;
     justify-content: center;
-    margin-bottom: 2%
+    margin-bottom: 2%;
 }
-.headerBar {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
 .container {
+    font-family: 'Rubik', sans-serif;
     width: 800px;
     margin: 0 auto;
 }
@@ -207,8 +209,9 @@ footer nav a {
 .aboutSection {
     padding: 1rem;
     text-align: left;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed black;
     margin-bottom: 2%;
+    font-family: 'Rubik', sans-serif;
 }
 .cardCont {
     display: flex;
@@ -221,9 +224,8 @@ footer nav a {
     width: 46%;
     margin: 1rem;
     padding-bottom: 10px;
-    border-bottom: 2px dotted black;
+    border-bottom: 1px dashed black;
 }
-
 .cardCont h2 {
     margin: 1rem 0;
 }
