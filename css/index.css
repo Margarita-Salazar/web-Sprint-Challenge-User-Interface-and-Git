@@ -205,6 +205,7 @@ footer nav a {
 }
 /* css for about */
 .aboutSection {
+    padding: 1rem;
     text-align: left;
     border-bottom: 1px dotted black;
     margin-bottom: 2%;
@@ -218,19 +219,25 @@ footer nav a {
 }
 .cardCont div{
     width: 46%;
-    margin: 1%;
+    margin: 1rem;
     padding-bottom: 10px;
-    border-bottom: 1px dotted black;
+    border-bottom: 2px dotted black;
 }
 
-.cardCont div * {
-    display: block;
+.cardCont h2 {
+    margin: 1rem 0;
 }
 .cardCont a{
-
+    text-decoration: none;
+    color: black;
+    display: inline-block;
     border: 2px solid black;
+    margin: 1rem 0;
     border-radius: 10px;
-    width: 10vw;
-    height: 5vh;
-    padding: 2%;
+    padding: .5rem 1rem;
+}
+.Work {
+    width: 800px;
+    padding: 1rem;
+    margin-bottom: 2rem;
 }
